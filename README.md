@@ -147,5 +147,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@SophieCurinier](https://github.com/SophieCurinier/)
+* [@conda-forge/gempy](https://github.com/orgs/conda-forge/teams/gempy/)
 
