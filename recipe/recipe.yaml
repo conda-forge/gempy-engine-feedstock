@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python 3.10.*
+    - python ${{ python_min }}.*
     - pip
     - setuptools
     - setuptools_scm
@@ -32,6 +32,7 @@ requirements:
 
 tests:
   - python:
+      python_version: ${{ python_min }}.*
       imports:
         - gempy_engine
       pip_check: true
@@ -48,4 +49,3 @@ extra:
   recipe-maintainers:
     - conda-forge/geoh5py
     - conda-forge/gempy
-
